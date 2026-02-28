@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from src.predict  import predict_customer_churn
+from src.predict import predict_customer_churn
 
 # Definir modelo de entrada
 class CustomerData(BaseModel):

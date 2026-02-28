@@ -2,10 +2,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 import joblib
-from .data_preprocessing import load_data,preprocess_data
+from data_preprocessing import load_data, preprocess_data
 
 # Carregar e processar dados
-df = load_data("..data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
+df = load_data("../data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv")
 df = preprocess_data(df)
 
 # Separar features e target
