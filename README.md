@@ -7,25 +7,6 @@ O modelo foi treinado com dados reais de clientes, e a API foi construída com *
 
 ---
 
-## 🔹 Estrutura do projeto
-
-
-churn-prediction/
-│
-├── app.py # API FastAPI
-├── models/
-│ └── model.pkl # Modelo treinado
-├── src/
-│ ├── predict.py # Função de previsão
-│ └── data_preprocessing.py# Pré-processamento dos dados
-├── notebooks/ # Notebooks para análise e treinamento
-├── test_request.json # Exemplo de JSON para teste da API
-├── requirements.txt # Dependências do projeto
-└── README.md # Este arquivo
-
-
----
-
 ## 🔹 Tecnologias utilizadas
 
 - Python 3.14  
